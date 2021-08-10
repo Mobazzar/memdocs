@@ -144,6 +144,8 @@ You can choose to filter the `AppInstallStatusAggregate` report's output based o
 - `AppInstallState`
 - `HexErrorCode` (Used as ErrorCode)
 
+ApplicationId is a required Filter for `DeviceInstallStatusByApp`
+
 ## UserInstallStatusAggregateByApp
 
 The following table contains the possible output when calling the `UserInstallStatusAggregateByApp` report:
@@ -158,7 +160,7 @@ The following table contains the possible output when calling the `UserInstallSt
 | NotInstalledCount |
 | NotApplicableCount    |
 
-There are no filters for this report.
+ApplicationId is a required Filter for `UserInstallStatusAggregateByApp`
 
 ## DeviceCompliance report
 
